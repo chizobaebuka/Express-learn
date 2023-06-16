@@ -1,0 +1,19 @@
+* the request object represents the http request properties for url parameters, query strings, http headers etc.
+* middleware to change or add things to the object. The middleware function have access to the request and response object.
+USES OF MIDDLEWARE
+** The middleware is capable to execute any code 
+** Make changes to the request and response objects 
+** Ends a response cycle
+** You have to call a next function when you write a piece of middleware 
+* bodyParser is added with express to pass any incoming data
+
+Documentation: expressjs.com
+POSTMAN: An Http client to make request to our server. GET, PUT, POST, DELETE etc
+
+Steps to start express::::
+i) npm init -y 
+ii) npm i express
+iii) main entry point (index.js)
+
+
+// install npm UUID to generate random Id for us
